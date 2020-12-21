@@ -1,0 +1,15 @@
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\bin\Debug\DBCore.dacpac
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\bin\Debug\DBCore.dll
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\bin\Debug\DBCore.pdb
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\obj\Debug\Model.xml
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\obj\Debug\refactor.xml
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\obj\Debug\postdeploy.sql
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\obj\Debug\predeploy.sql
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\obj\Debug\DBCore.dll
+C:\Study\An_Toan_Phan_Mem\Final\WebInside\DBCore\obj\Debug\DBCore.pdb
+C:\Users\USER\Desktop\WebInside_01122019\WebInside\DBCore\bin\Debug\DBCore.dacpac
+C:\Users\USER\Desktop\WebInside_01122019\WebInside\DBCore\bin\Debug\DBCore.dll
+C:\Users\USER\Desktop\WebInside_01122019\WebInside\DBCore\bin\Debug\DBCore.pdb
+C:\Users\USER\Desktop\WebInside_01122019\WebInside\DBCore\obj\Debug\DBCore.dll
+C:\Users\USER\Desktop\WebInside_01122019\WebInside\DBCore\obj\Debug\DBCore.pdb
+C:\Users\USER\Desktop\WebInside_01122019\WebInside\DBCore\obj\Debug\DBCore.sqlprojAssemblyReference.cache

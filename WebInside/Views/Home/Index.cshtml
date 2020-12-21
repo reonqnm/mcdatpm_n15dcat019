@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.AspNetCore.Http
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        Mange Your Human Resources
+    </p>
+    <p>Session : @Context.Session.GetString("Token")</p>
+    <p>Session From Viewbag : @ViewBag.Session</p>
+</div>

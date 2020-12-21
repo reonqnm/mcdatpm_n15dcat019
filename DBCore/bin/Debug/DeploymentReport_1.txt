@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Employee] (Table)
+       [dbo].[spCreateEmployee] (Procedure)
+       [dbo].[spDeleteEmployee] (Procedure)
+       [dbo].[spEditEmployee] (Procedure)
+       [dbo].[spGetEmployee] (Procedure)
+       [dbo].[spLogin] (Procedure)
+
+** Supporting actions

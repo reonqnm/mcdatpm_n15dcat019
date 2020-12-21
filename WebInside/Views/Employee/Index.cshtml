@@ -1,0 +1,79 @@
+﻿@model IEnumerable<WebInside.Models.EmployeeViewModel>
+@*@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor*@
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>List Employees 4</h1>
+
+<p>
+    <a asp-action="Form">Create New</a>
+</p>
+<div><form asp-action="Index" asp-controller="Employyee" method="get">Search : <input name="search" /> <button type="submit">OK</button></form></div>
+<div class="clearfix"></div>
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BirthDay)
+            </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BirthDay)
+                </td>*@
+                <td>
+                    @*@Html.ActionLink("Edit", "Form", new { id = item.Id }) |
+                   
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+
+                    @Html.ActionLink("Edit", "Form", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
